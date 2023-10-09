@@ -21,7 +21,7 @@ ul>li {
 }
 
 .rent {
-    background-color: #0C0F12;
+    background: radial-gradient(#203332, #161616);
     color: white;
     font-family: Arial, sans-serif;
     padding-top: 80px;
@@ -88,21 +88,17 @@ h1 {
     width: 80%;
 }
 
-@media (max-width: 425px) {
+@media (max-width: 768px) {
     .rent__img {
         display: none;
     }
 
-    .rent {
-        background-color: #08d4b9;
+    .rent-terms__item {
+        width: 120px;
     }
 }
 
 @media (min-width: 1024px) {
-    .rent {
-        background-color: #42428d;
-    }
-
     .rent__img {
         width: 800px;
     }
